@@ -9,7 +9,11 @@ Implementasi JDBC disebut dengan Driver, contohnya MySQL Driver, Oracle Drive, d
 - Download Driver sesuai dengan database yang digunakan
 - Melakukan registrasi driver, bisa menggunakan static method registerDriver milik class java.sql.DriverManager
 
+Config -> DataSource (Connection Pool) -> Connection -> Statement -> Exceute Statement
+
 ## Learning
 - test/RegisterDriverTest.java
 - test/ConnectionTest.java
 - test/ConnectionPoolTest.java
+- test/StatementTest.java
+- test/ResultSetTest.java
