@@ -17,3 +17,5 @@ Config -> DataSource (Connection Pool) -> Connection -> Statement -> Exceute Sta
 - test/ConnectionPoolTest.java
 - test/StatementTest.java
 - test/ResultSetTest.java
+- test/SqlInjectionTest.java
+- test/PreparedStatement.java

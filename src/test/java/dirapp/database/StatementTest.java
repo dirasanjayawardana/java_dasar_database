@@ -12,7 +12,7 @@ public class StatementTest {
   // untuk membuat Statement menggunakan method createStatement() pada connection
 
   
-  // createStatement --> membuat Statement
+  // createStatement() --> membuat Statement
   @Test
   void testCreateStatement() throws SQLException {
     Connection connection = ConnectionUtil.getDataSource().getConnection();
@@ -31,7 +31,7 @@ public class StatementTest {
 
     String sql = """
         INSERT INTO customers(id, name, email) 
-        VALUES ('dira', 'Dira', 'dira@email.com')
+        VALUES ('sanjaya', 'Sanjaya', 'sanjaya@email.com')
         """;
     int update = statement.executeUpdate(sql);
     System.out.println(update);
