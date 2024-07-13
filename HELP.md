@@ -24,3 +24,4 @@ Config -> DataSource (Connection Pool) -> Connection -> Statement -> Exceute Sta
 - test/DateTimeTimestampTest.java
 - test/TransactionTest.java
 - test/MetaDataTest.java
+- RepositoryPattern.java (Repository --> jembatan antara business logic aplikasi dengan database)
