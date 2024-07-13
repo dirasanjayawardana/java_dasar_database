@@ -19,3 +19,8 @@ Config -> DataSource (Connection Pool) -> Connection -> Statement -> Exceute Sta
 - test/ResultSetTest.java
 - test/SqlInjectionTest.java
 - test/PreparedStatement.java
+- test/BatchTest.java
+- test/AutoIncrementTest.java
+- test/DateTimeTimestampTest.java
+- test/TransactionTest.java
+- test/MetaDataTest.java

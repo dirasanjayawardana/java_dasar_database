@@ -21,3 +21,26 @@ CREATE TABLE admin
 SELECT * FROM admin
 
 INSERT INTO admin (username, password) VALUES ('admin', 'admin')
+
+SHOW TABLES
+
+CREATE TABLE comments
+(
+  id INT NOT NULL AUTO_INCREMENT,
+  email VARCHAR(100),
+  comment TEXT,
+  PRIMARY KEY (id)
+) ENGINE = InnoDB
+
+SELECT * FROM comments
+
+CREATE Table sample_time
+(
+  id INT not null AUTO_INCREMENT,
+  sample_date DATE,
+  sample_time TIME,
+  sample_timestamp TIMESTAMP,
+  PRIMARY KEY (id)
+) engine = InnoDB
+
+SELECT * from sample_time
